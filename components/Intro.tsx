@@ -58,7 +58,7 @@ export default function Intro() {
                     animate={{ opacity: 1, y: 0 }}
                 >
                     {/* Short intro text */}
-                    <p>Hi, I'm Anton!</p>
+                    <p>Hi, I&apos;m Anton!</p>
                     <p className='mt-4 text-gray-600 dark:text-gray-300'>A Frontend development enthusiast, currently focused on broadening my skill set and abilities.</p>
 
                 </motion.div>

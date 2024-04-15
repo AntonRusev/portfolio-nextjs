@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { BsInfoCircle } from "react-icons/bs";
 
 import { Button } from '../ui/button';
@@ -108,8 +109,11 @@ export default function HighlightProjectItem({ title, purpose, description, tech
                         <div className="h-[64px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
                         <div className="rounded-[2rem] overflow-hidden w-[272px] h-[572px]">
                             {/* Image */}
-                            <img
+                            <Image
                                 src={imageUrlMobile}
+                                width={272}
+                                height={572}
+                                quality={80}
                                 className="w-[272px] h-[572px] opacity-90 hover:opacity-100 transition-opacity"
                                 alt="mobile pic"
                             />
@@ -142,8 +146,10 @@ export default function HighlightProjectItem({ title, purpose, description, tech
                     <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] shadow-xl md:h-[294px] md:max-w-[512px]">
                         <div className="rounded-lg overflow-hidden h-[156px] md:h-[278px]">
                             {/* Image */}
-                            <img
+                            <Image
                                 src={imageUrlBig}
+                                fill
+                                quality={80}
                                 className="h-[156px] md:h-[278px] w-full rounded-lg opacity-90 hover:opacity-100 transition-opacity"
                                 alt="laptop pic"
                             />

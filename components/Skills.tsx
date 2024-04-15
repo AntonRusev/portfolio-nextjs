@@ -78,7 +78,7 @@ export default function Skills() {
                 }}
                 className='font-extralight tracking-wider my-12'
             >
-                Some of the tools and technologies that I've used in my projects.
+                Some of the tools and technologies that I&apos;ve used in my projects.
             </motion.p>
         </section>
     );
