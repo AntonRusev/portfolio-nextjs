@@ -42,7 +42,7 @@ export default function Intro() {
                 >
                     {/* Author Image */}
                     <Image
-                        src="https://avatars.githubusercontent.com/u/102323013?v=4"
+                        src="/author.png"
                         alt="Anton's portrait"
                         width={300}
                         height={300}

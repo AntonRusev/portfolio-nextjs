@@ -1,4 +1,14 @@
+import apparel from "@/public/aa.jpg";
+import choreminder from "@/public/choreminder.jpg";
+import crazyCalc from "@/public/crazyCalc.jpg";
+import fbLarge from "@/public/fbLarge.jpg";
+import fbMobile from "@/public/fbMobile.jpg";
+import formerPortfolio from "@/public/formerPortfolio.jpg";
+import nfts from "@/public/nfts.jpg";
+import trivial from "@/public/trivial.jpg";
+
 // DATA FILE
+
 export const links = [
   {
     name: "Intro",
@@ -36,8 +46,8 @@ export const highlightProjectsData = [
       `Updates to the cached data are done with the pessimistic updates approach. Validation tags are also used in some places, for auto-fetching outdated data.`,
       `The application is graded "A" for Content Security Policies on securityheaders.com`,
     ],
-    imageUrlMobile: "https://i.ibb.co/Lkd0hKC/fb-mobile.jpg",
-    imageUrlBig: "https://i.ibb.co/r30hwVH/fb-large.jpg",
+    imageUrlMobile: fbMobile,
+    imageUrlBig: fbLarge,
     siteUrl: "https://fishing-buddies.fly.dev/",
     repoUrl: "https://github.com/AntonRusev/fishing-buddies",
   }
@@ -47,48 +57,42 @@ export const otherProjectsData = [
   {
     title: 'Trivia-l',
     description: "Test your general knowledge in various quiz categories and set your own score records.",
-    imageUrlMobile: "https://i.ibb.co/zfWPKRB/trivial-mobile.png",
-    imageUrlBig: "https://i.ibb.co/BnCjXhs/trivial.png",
+    imageUrlBig: trivial,
     siteUrl: "https://trivia-l.web.app",
     repoUrl: "https://github.com/AntonRusev/Trivial",
   },
   {
     title: 'NFTs Gallery',
     description: "No, not that kind of NFTs(although they seem to be equally worthless nowadays)...",
-    imageUrlMobile: "https://i.ibb.co/k8HVYDr/nft-create-mobile.png",
-    imageUrlBig: "https://i.ibb.co/xqb8y1f/nft-home-full.png",
+    imageUrlBig: nfts,
     siteUrl: "https://nfts-gallery.web.app",
     repoUrl: "https://github.com/AntonRusev/React-NFTs",
   },
   {
     title: 'Crazy Calculator',
     description: "Junior developer portfolio and Calculator project, name a more iconic duo. I'll wait.",
-    imageUrlMobile: "https://i.ibb.co/Y7m35jz/calc-mobile.png",
-    imageUrlBig: "https://i.ibb.co/Vt3TmVF/calc-full.png",
+    imageUrlBig: crazyCalc,
     siteUrl: "https://crazy-calculating-challenge.web.app",
     repoUrl: "https://github.com/AntonRusev/Crazy-Calculator",
   },
   {
     title: 'CHOREMINDER',
     description: "Any resemblance to fictional creatures, their names, or colors, is purely coincidental.",
-    imageUrlMobile: "https://i.ibb.co/0Zp8Cpd/chore-mobile.png",
-    imageUrlBig: "https://i.ibb.co/Kmdz679/choreminder.png",
+    imageUrlBig: choreminder,
     siteUrl: "https://chore-minder.web.app",
     repoUrl: "https://github.com/AntonRusev/Choreminder",
   },
   {
     title: 'First Portfolio',
     description: "My former portfolio.",
-    imageUrlMobile: "https://i.ibb.co/Jj9G3Rw/former-portfolio-mobile.jpg",
-    imageUrlBig: "https://i.ibb.co/JC6dvDX/former-portfolio-large.jpg",
+    imageUrlBig: formerPortfolio,
     siteUrl: "https://anton-rusev-portfolio.web.app",
     repoUrl: "https://github.com/AntonRusev/Portfolio",
   },
   {
     title: 'Apparel Averagestore',
     description: "Only real fans of crocs will get it...",
-    imageUrlMobile: "https://i.ibb.co/GVDcZGw/aa-mobile.jpg",
-    imageUrlBig: "https://i.ibb.co/G2MphJG/aa-large.jpg",
+    imageUrlBig: apparel,
     siteUrl: "https://ar-product-listing-page.web.app",
     repoUrl: "https://github.com/AntonRusev/Product-Listing-Page",
   },

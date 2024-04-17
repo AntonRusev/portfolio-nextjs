@@ -1,6 +1,8 @@
 ## My Portfolio v2.0
+
 ### Online access
-*coming soon*
+The portfolio can be accessed at https://anton-r-portfolio.vercel.app/
+
 ### Overview
 This is my second Portfolio project. It was built with `React`, `NextJS`, `TypeScript`, `Tailwind CSS`, `Shadcn/ui`, `Framer Motion`, `React Email` and `Resend`.
 
